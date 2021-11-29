@@ -1,0 +1,85 @@
+/*! \mainpage Proyecto Imagenes
+
+## Realizado por:
+### Cardenas Garcia, Cristian
+### Kharraz Senhaji, Morad
+
+@image html vacas.jpg
+
+# Introducción
+
+Este proyecto consiste en modificar y operar con imágenes en formato PGM que se reciben como argumento.
+El proyecto dispone de varias aplicaciones que se pueden consultar en los siguientes ejecutables.
+
+# Ejecutables
+
+## Negativo:
+
+@image html vacas-negativo.jpg
+
+Calcula el negativo de una imagen
+
+> __negativo__ \<FichImagenOriginal\> \<FichImagenDestino\>
+@param "<FichImagenOriginal>" Imagen PGM a la que se va a calcular
+@param <FichImagenDestino> Imagen PGM resultado de calcular el negativo
+
+## Subimagen:
+
+@image html vacas-subimagen.jpg
+
+Genera una imagen a partir de otra imagen.
+
+> __subimagen__ \<FichImagenOriginal\> \<FichImagenDestino\> \<Fila\> \<Col\> \<Filas_Sub\> \<Cols_Sub\>
+@param "<FichImagenOriginal>" Nombre del fichero que contiene la imagen original
+@param "<FichImagenDestino>"  Nombre del fichero que contendrá la subimagen resultado
+@param "<Fila>" Fila de la esquina superior izquierda de la subimagen que se va a extraer
+@param "<Col>" Columna de la esquina superior izquierda de la subimagen que se va a extraer
+@param "<Filas_Sub>" Número de filas de la subimagen que se va a extraer
+@param "<Cols_Sub>" Número de columnas de la subimagen que se va a extraer
+
+## Zoom:
+
+@image html vacas-zoom.jpg
+
+Realiza una zoom 2X de una porción de la imagen.
+
+> __zoom__ \<FichImagenOriginal\> \<FichImagenDestino\> \<Fila\> \<Col\> \<Lado\>
+@param "<FichImagenOriginal>" Nombre del fichero que contiene la imagen original
+@param "<FichImagenDestino>"  Nombre del fichero que contendrá el resultado del zoom
+@param "<Fila>" Fila de la esquina superior izquierda de la subimagen que se va a extraer
+@param "<Col>" Columna de la esquina superior izquierda de la subimagen que se va a extraer
+@param "<Lado>" Tamaño del lado del cuadrado
+
+
+## Icono:
+
+@image html vacas-icono.jpg
+
+Crea una imagen de un tamaño muy reducido a partir de uuna imagen original.
+
+> __icono__ \<FichImagenOriginal\> \<FichImagenDestino\> \<Factor\>
+@param "<FichImagenOriginal>" Nombre del fichero que contiene la imagen original
+@param "<FichImagenDestino>"  Nombre del fichero donde se gurdará el icono
+@param "<Factor>" Factor de reducción
+
+## Contraste:
+
+@image html vacas-contraste.jpg
+
+Genera uuna imagen de niveles de gris con más contraste que la original.
+
+> __contraste__ \<FichImagenOriginal\> \<FichImagenDestino\> \<E1\> \<E2\> \<S1\> \<S2\>
+@param "<FichImagenOriginal>" Nombre del fichero que contiene la imagen original
+@param "<FichImagenDestino>"  Nombre del fichero que contendrá la imagen resultado
+@param "E1" Umbral inferior de la imagen de entrada
+@param "E2" Umbral superior de la imagen de entrada
+@param "S1" Umbral inferior de la imagen de salida
+@param "S2" Umbral superior de la imagen de salida
+
+
+
+@author Cardenas Garcia, Cristian
+@author Kharraz Senhaji, Morad
+
+
+*/
